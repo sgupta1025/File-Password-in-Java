@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <center>
+      <BorderPane prefHeight="18.0" prefWidth="164.0" BorderPane.alignment="CENTER">
+         <top>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="How many people in the US have Hemophilia" wrappingWidth="175.22265625" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="OR" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </center>
+         <bottom>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="What does a person with hemophilia have difficulty doing? (HINT: Their blood can not...)" wrappingWidth="213.38671875" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </center>
+   <bottom>
+      <PasswordField fx:id="passwordField" prefHeight="5.0" prefWidth="200.0" promptText="Enter solution here" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
